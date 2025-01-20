@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://apoorva-chavali.github.io/apoorva-chavali.github.io",
-
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -24,7 +23,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
-    "@types/react": "^19",
+    "@types/react": "^19.0.7",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.5",

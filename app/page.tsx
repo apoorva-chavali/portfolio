@@ -9,10 +9,10 @@ const pages = [
     content: (
       <div className="text-center max-w-3xl mx-auto">
         <h2 className="text-5xl font-bold bg-gradient-to-r from-teal-400 to-emerald-400 bg-clip-text text-transparent mb-6">
-          Hi, I'm Apoorva Chavali
+          Hi, I am Apoorva Chavali
         </h2>
         <p className="text-xl text-gray-400 mb-8 leading-relaxed">
-        I am currently pursuing a master’s degree (2024 - 2026) in computer engineering with a specialization in software and machine intelligence at Virginia Tech.
+        I am currently pursuing a masters degree (2024 - 2026) in computer engineering with a specialization in software and machine intelligence at Virginia Tech.
 
 I completed my undergraduate studies in computer science and engineering in 2023 from Osmania University, where I developed a deep interest in artificial intelligence, inspired by its transformative advancements. This passion for AI and my desire to contribute meaningfully to the field motivated me to pursue advanced studies and explore innovative opportunities in AI and machine learning.
 
@@ -224,7 +224,7 @@ const BookThemedPortfolio = () => {
     }
   };
 
-  const goToPage = (index) => {
+  const goToPage = (index: number) => {
     setCurrentPage(index);
   };
 
