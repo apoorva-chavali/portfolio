@@ -2,7 +2,6 @@
   "name": "apoorva-chavali",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://apoorva-chavali.github.io/apoorva-chavali.github.io",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
